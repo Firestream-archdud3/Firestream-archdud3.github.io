@@ -1,0 +1,59 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    background-color: #212121;
+    height: 100%;
+    display: flex;
+    padding: 1%;
+    --DROPSHADOW: #0000003a 0px 6px 5px -4px;
+    font-weight: 600;
+}
+.fireStreamIcon {
+    color: #ff7474;
+}
+#leftmost {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+}
+.title {
+    font-size: 2vw;
+    text-shadow: var(--DROPSHADOW);
+    font-weight: 700;
+}
+#recommend-virport {
+    background-color: #2f2f2f;
+    width: 100%;
+    height: 82.6vh;
+    border-radius: 30px;
+    box-shadow: var(--DROPSHADOW);
+    padding: 30px;
+}
+#title {
+    padding-bottom: 10px;
+}
+.recommend-virport-title {
+    width: 50%;
+}
+#recommend-virport-title {
+    display: flex;
+    font-size: 1.6vw;
+    font-weight: 600;
+}
+#recommend-virport-title-icon {
+    text-align: right;
+}
+#recommend-virport-content-1-img {
+    width: 100%;
+    height: 23vh;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: var(--DROPSHADOW);
+}
+#recommend-virport-content-1-img > img {
+    width: 100%;
+}
+#recommend-virport-content-1-descript {
+    padding-top: 1vh;
+    font-size: 2vh;
+}

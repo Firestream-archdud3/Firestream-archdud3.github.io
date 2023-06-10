@@ -1,0 +1,27 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    background-color: #212121;
+    text-align: center;
+    padding-top: 23%;
+    height: 100%;
+}
+.fireStreamIcon {
+    color: #ff7474;
+}
+@media screen and (min-width: 800px) {
+    #mobile {
+        display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    #desktop {
+        display: none;
+    }
+}
+b {
+    font-weight: 700;
+}
+h1 {
+    font-weight: 600;
+}
